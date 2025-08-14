@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: silver;
+    padding: 0 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+    padding: 20px;
+}
+nav ul li {
+    list-style: none ;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-btn-div{
+    display: flex;
+}
+
+.nav-btn-div{
+    display: flex;
+    gap: 10px;
+}
+.nav-btn-div a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #4CAF4F;
+}
+
+#sign-up{
+    background-color: #4CAF4F;
+    color: white;
+    border-radius: 6px;
+}
+
+.hero{
+    display: flex;
+    width: 100;
+    padding: 96px;
+    background-color: #F5F7FA;
+    gap: 100PX;
+}
+
+.hero-1 h1{
+font-weight: 600;
+line-height: 76px;
+front-size: 54px
+
+}
+
+.hero-1 span{
+    color: #4CAF4F;
+}
+
+.hero-1 a{
+    color: #717171;
+}
+
+.hero-1 a{
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    margin-top: 30px;
+    display: block;
+    width: 128;
+    transform: none;
+    color: white;
+}
+
+
+.section-2-hero-1{
+    text-align: center;
+    gap: 8px;
+    height: 76px;
+}
+
+.section-2-hero-1 h2{
+    color: #4d4d4d;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.section-2-hero-1 P{
+    color: #717171;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section-2-hero-2{
+    display:flex;
+    gap: 10px;
+    padding: 0 120px;
+    margin: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section-3-hero-1{
+    text-align: center;
+    height: 120px;
+    padding: 60px;
+}
+
+.section-3-hero-1 h2{
+    color: #4d4d4d;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.section-3-hero-1 p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-4{
+    display: flex;
+    width: 0 144;
+    gap: 160px;
+    justify-content: space-between;
+}
+
+.section-4-hero-1{
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 8px;
+    box-shadow: #ABBED133;
+}
+
+.section-4-hero-1 h3{
+    color: #4d4d4d;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.section-4-hero-1 P{
+    color: #717171;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.section-4-hero-2{
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 8PX; ;
+    box-shadow: #ABBED133;
+}
+
+.section-4-hero-2 h3{
+    color: #4d4d4d;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.section-2-hero-2 p{
+    color: #717171;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.section-4-hero-3{
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 8px;
+    box-shadow: #00000048;
+}
+
+.section-4-hero-3 h3{
+    color: #4d4d4d;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.section-4-hero-3 p{
+    color: #717171;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.section-5{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.section-5-hero-2{
+    padding: 100px;
+    gap: 16px; ;
+}
+
+.section-5-hero-2 h2{
+    color: #4d4d4d;
+    display: block;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.section-5-hero-2 p{
+    color: #717171;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.section-5-hero-2 a{
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+margin-top: 30px;
+display: block;
+width: 151px;
+text-decoration: none;
+color: white;
+}
+
+.section-6{
+    display: flex;
+    width: 199;
+    padding: 96px;
+    gap: 30px;
+    background-color: #F5F7FA;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.section-6-hero-1 h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+.section-6-hero-1 h2 span{
+    color: #4CAF4F;}
+
+
+    .section-6-hero-1 p{
+        color: #18191f;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .section-7{
+        display: flex;
+    }
+
+    .section-7-hero-2{
+        padding: 100px;
+        gap: 30px;
+    }
+
+    .section-7-hero-2 h2{
+        color: #4d4d4d;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .section-7-hero-2 p{
+        color: #717171;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .section-7-hero-2 a{
+        padding: 14px 32px;
+        background-color: #4CAF4F;
+        margin-top: 30px;
+        display: block;
+        width: 151px;
+        text-decoration: none;
+        color: white;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
